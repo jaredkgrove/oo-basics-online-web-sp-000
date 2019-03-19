@@ -1,7 +1,7 @@
 class Book
   attr_accessor :title
-  def initialize
-    @title = "And Then There Weere None"
+  def initialize(title)
+    @title = title
   end
 end
 
